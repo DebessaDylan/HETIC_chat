@@ -15,4 +15,24 @@ Mise en place d'une application de chat (chatbot)
 ## Configuration des vues client
 - Définir le moteur de rendu en __ejs__
 - Définir un dossier "__www__" comme étant le dossier client
-- Créer un fichier "__index.html__" dans le dossier "__www__"
+- Créer un fichier "__index.ejs__" dans le dossier "__www__"
+- Créer un router front:
+    - créer les routes Homepage
+    - créer la route register
+    - créer la route login
+    - créer la route chat
+
+## Création de l'API
+- Créer un fichier de routes pour l'api (cf. font.routes)
+- Créer une route "/register"
+- Créer une route "/login"
+
+## Création des formulaires register/login
+- Le formulaire d'inscription contient:
+    - email
+    - pseudo
+    - password (2)
+    - cgu
+- Le formulaire de connexion contient:
+    - email
+    - password
